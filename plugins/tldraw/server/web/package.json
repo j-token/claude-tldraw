@@ -1,0 +1,16 @@
+{
+  "name": "tldraw-mod-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --format=esm --target=es2022 --minify --outfile=../dist/app.js && node -e \"require('fs').copyFileSync('node_modules/tldraw/tldraw.css','../dist/tldraw.css')\""
+  },
+  "dependencies": {
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "tldraw": "5.5.2"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12"
+  }
+}

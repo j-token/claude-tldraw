@@ -1,0 +1,16 @@
+{
+  "name": "tldraw",
+  "version": "0.2.0",
+  "description": "Claude가 tldraw 캔버스에 그리고, Claude Code 안의 pane에서 바로 보여줍니다 (드래그 이동, 휠 확대/축소). tldraw.com 공식 MCP도 함께 연결합니다.",
+  "author": {
+    "name": "leeheon",
+    "email": "leeheon0111@gmail.com"
+  },
+  "keywords": ["tldraw", "whiteboard", "diagram", "canvas", "mod"],
+  "mcpServers": {
+    "tldraw-com": {
+      "type": "http",
+      "url": "https://www.tldraw.com/api/app/mcp"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>tldraw · Claude Code (headless)</title>
+    <link rel="stylesheet" href="/static/tldraw.css" />
+    <style>
+      html, body, #root { position: fixed; inset: 0; margin: 0; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- web/src/main.js 를 npm run build 로 묶은 번들 (tldraw + @tldraw/sync) -->
+    <script type="module" src="/static/app.js"></script>
+  </body>
+</html>
