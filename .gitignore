@@ -1,0 +1,6 @@
+node_modules/
+# 개발 중 생긴 런타임 데이터 (실제 데이터는 ~/.claude/plugins/data/tldraw 에 저장됨)
+plugins/tldraw/data/
+plugins/tldraw/.claude-plugin/types/
+plugins/tldraw/tsconfig.json
+.playwright-mcp/
