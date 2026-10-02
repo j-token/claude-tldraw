@@ -11,8 +11,6 @@ A Claude Code plugin for drawing on a tldraw canvas. When Claude draws a diagram
 
 ## Install
 
-> This is a private repository, so installing only works while you are signed in with a GitHub account that has access to it (`gh auth login`).
-
 In Claude Code:
 
 ```
