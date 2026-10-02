@@ -11,8 +11,6 @@ Claude Code 안에서 tldraw 캔버스를 쓰는 플러그인입니다. Claude�
 
 ## 설치
 
-> 비공개(private) 레포라서, 접근 권한이 있는 GitHub 계정으로 로그인한 상태에서만 설치됩니다 (`gh auth login`).
-
 Claude Code에서:
 
 ```
