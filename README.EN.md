@@ -11,6 +11,8 @@ A Claude Code plugin for drawing on a tldraw canvas. When Claude draws a diagram
 
 ## Install
 
+> **To use tldraw, you need the `claude.ai tldraw` Claude plugin.** Add the tldraw connector on claude.ai, then check that `claude.ai tldraw` shows as connected in `/mcp` in Claude Code.
+
 In Claude Code:
 
 ```
@@ -25,6 +27,7 @@ To use the tldraw.com tools, pick `tldraw-com` in `/mcp` and sign in once (optio
 ## Requirements
 
 - Claude Code v2.1.287 or later (mods support), in a terminal or the Code tab of Claude Desktop
+- The `claude.ai tldraw` Claude plugin, connected
 - Node.js 18 or later (`node` on your PATH)
 - A Chromium-based browser: Microsoft Edge or Google Chrome. It only runs headless; no window is ever shown. If it is installed somewhere unusual, set the `TLDRAW_BROWSER` environment variable to its executable.
 - tldraw fonts are downloaded from the internet the first time it runs.

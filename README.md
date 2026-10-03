@@ -11,6 +11,8 @@ Claude Code 안에서 tldraw 캔버스를 쓰는 플러그인입니다. Claude�
 
 ## 설치
 
+> **tldraw를 쓰려면 Claude 플러그인 `claude.ai tldraw`를 연결해야 합니다.** claude.ai에서 tldraw 커넥터를 추가한 뒤, Claude Code의 `/mcp` 목록에 `claude.ai tldraw`가 연결됨으로 보이는지 확인하세요.
+
 Claude Code에서:
 
 ```
@@ -25,6 +27,7 @@ tldraw.com 기능을 쓰려면 `/mcp`에서 `tldraw-com`을 골라 한 번 로�
 ## 필요 조건
 
 - Claude Code v2.1.287 이상 (mod 지원), 터미널 또는 Claude Desktop의 Code 탭
+- Claude 플러그인 `claude.ai tldraw` 연결
 - Node.js 18 이상 (`node`가 PATH에 있어야 함)
 - Chromium 계열 브라우저: Microsoft Edge 또는 Google Chrome. 화면에 창을 띄우지 않는 headless 모드로만 씁니다. 다른 위치에 설치했다면 `TLDRAW_BROWSER` 환경 변수에 실행 파일 경로를 지정하세요.
 - 처음 실행할 때 tldraw 글꼴을 인터넷에서 받습니다.
